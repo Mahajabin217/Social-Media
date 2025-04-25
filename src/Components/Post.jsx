@@ -19,7 +19,7 @@ const Post = ({ post }) => {
                         <span key={tag} className="btn btn-primary hashtag">{tag}</span>
                     ))}
                     <div className="alert alert-success reactions" role="alert">
-                        {`This post has been clicked by ${post.reactions} peoples`}
+                        {`This post has been reacted by ${post.reactions.likes} peoples`}
                     </div>
                 </div>
             </div>
